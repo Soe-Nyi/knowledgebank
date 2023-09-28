@@ -198,14 +198,6 @@ CREATE TABLE `users` (
   `type` varchar(6) NOT NULL DEFAULT 'user'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Dumping data for table `users`
---
-
-INSERT INTO `users` (`id`, `name`, `profile`, `cover`, `bio`, `upload`, `email`, `phone`, `location`, `birthday`, `work`, `school`, `password`, `coordinate`, `ip`, `last_login`, `type`) VALUES
-(1, 'Jerry', 'profiles/soenyi.jpeg', '', 'Learning Programming &amp; Web Developing\r\nScience &amp; Technology\r\nCoding &amp; ***', 0, 'soenyi@gmail.com', '09883452636', '', '2005-08-14', 'Knowledge Bank CEO', 'BEHS(9) Taunggyi', '8e4b10030433ba9ce0d2e7df1004070f', '', '127.0.0.1', '2022-12-18 06:16:17', 'super'),
-(2, 'Soe Nyi', 'profiles/logo.jpg', '', '`, `name`, `username`, `profile`, `bio`, `upload`, `email`, `phone`, `location`, `worlowing`, `follower`, `dth', 0, 'lusifersoe@gmail.com', '09883452636', '', '2005-08-14', 'CSO', 'Taunggyi', '8e4b10030433ba9ce0d2e7df1004070f', '', '127.0.0.1', '2022-12-07 10:14:56', 'admin'),
-(3, 'User', 'profiles/profile.png', '', '    		function getUserStatus(){\r\n			    var id = $(\'#id\').val();\r\n    			$.ajax({\r\n    				url:\'get_s', 0, 'soenyi5002@gmail.com', '09883452636', '', '14 Aug 2005', 'Knowledge Bank CEO', 'Taunggyi', '8e4b10030433ba9ce0d2e7df1004070f', '', '::1', '2022-12-01 07:52:01', 'user');
 
 --
 -- Indexes for dumped tables
