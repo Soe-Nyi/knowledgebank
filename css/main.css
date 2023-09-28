@@ -1,0 +1,45 @@
+html,body{
+    scroll-behavior: smooth;
+}
+.login{
+    border: 1px solid ;
+}
+.posts-wrapper {
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+}
+.fa {
+    font-size: 1.2em;
+}
+.fa-thumbs-down, .fa-thumbs-o-down {
+    transform: rotateY(180deg);
+}
+.logged_in_user {
+    padding: 10px 30px 0px;
+}
+i {
+    color: blue;
+}
+.siteName {
+    margin-top: -100px;
+}
+.navbar {
+    padding: 0 30px 30px 30px;
+    margin: 0;
+}
+
+.row img {
+    width: 100%;
+    height: 25em;
+}
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:800px) {
+    .row img {
+        width: 23em;
+    }
+}
